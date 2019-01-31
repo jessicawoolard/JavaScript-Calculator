@@ -40,7 +40,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '.heroku.com'
+    'fierce-shore-72613.herokuapp.com',
 ]
 
 
