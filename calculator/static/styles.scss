@@ -1,0 +1,56 @@
+
+body {
+  .container {
+    width: 250px;
+    margin: 100px auto 0;
+  }
+
+  #display {
+    background-color: #5C5856;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .row {
+    height: 50px;
+  }
+
+  button {
+    font-size: 25px;
+    color: #fff;
+    border: black 1px solid;
+    outline: none;
+  }
+  button:focus {outline: none;}
+
+  button:active {
+    background: #F4F4F4;
+    -webkit-transition: background 300ms ease-in-out;
+    -moz-transition: background 300ms ease-in-out;
+    -ms-transition: background 300ms ease-in-out;
+    -o-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+
+  .math {
+    background-color: #FF9F0C;
+  }
+
+  .number, .decimal {
+    background-color: #83807F;
+  }
+
+  .top {
+    background-color: #6C6967;
+    font-size: 20px;
+  }
+  .zero {
+  border-bottom-left-radius: 5px;
+  }
+  #equal {
+    border-bottom-right-radius: 5px;
+  }
+
+}
